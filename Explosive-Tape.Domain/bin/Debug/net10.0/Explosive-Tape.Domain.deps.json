@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Explosive-Tape.Domain/1.0.0": {
+        "runtime": {
+          "Explosive-Tape.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Explosive-Tape.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

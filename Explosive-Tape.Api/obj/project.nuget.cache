@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IMzwGlBNGVI=",
+  "success": true,
+  "projectFilePath": "/Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/Explosive-Tape.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/josephbourbeau/.nuget/packages/microsoft.aspnetcore.openapi/10.0.2/microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",
+    "/Users/josephbourbeau/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,6 @@
+@Explosive_Tape.Api_HostAddress = http://localhost:5295
+
+GET {{Explosive_Tape.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
