@@ -17,6 +17,7 @@
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Domain/obj/Debug/net10.0/Explosive-Tape.Domain.AssemblyInfoInputs.cache
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Domain/obj/Debug/net10.0/Explosive-Tape.Domain.AssemblyInfo.cs
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Domain/obj/Debug/net10.0/Explosive-Tape.Domain.csproj.CoreCompileInputs.cache
+/Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Domain/obj/Debug/net10.0/Explosive-Tape.Domain.sourcelink.json
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Domain/obj/Debug/net10.0/Explosive-Tape.Domain.dll
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Domain/obj/Debug/net10.0/refint/Explosive-Tape.Domain.dll
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Domain/obj/Debug/net10.0/Explosive-Tape.Domain.pdb

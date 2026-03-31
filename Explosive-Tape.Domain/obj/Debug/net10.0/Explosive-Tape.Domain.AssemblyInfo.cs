@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Explosive-Tape.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d25971d908a2589773c80276d4417a18cd24466")]
 [assembly: System.Reflection.AssemblyProductAttribute("Explosive-Tape.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Explosive-Tape.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

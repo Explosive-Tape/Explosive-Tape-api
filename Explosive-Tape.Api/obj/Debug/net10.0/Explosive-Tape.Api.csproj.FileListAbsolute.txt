@@ -54,6 +54,7 @@
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/obj/Debug/net10.0/Explosive-Tape.Api.csproj.CoreCompileInputs.cache
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/obj/Debug/net10.0/Explosive-Tape.Api.MvcApplicationPartsAssemblyInfo.cs
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/obj/Debug/net10.0/Explosive-Tape.Api.MvcApplicationPartsAssemblyInfo.cache
+/Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/obj/Debug/net10.0/Explosive-Tape.Api.sourcelink.json
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/obj/Debug/net10.0/rjimswa.dswa.cache.json
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
@@ -69,3 +70,6 @@
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/obj/Debug/net10.0/Explosive-Tape.Api.pdb
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/obj/Debug/net10.0/Explosive-Tape.Api.genruntimeconfig.cache
 /Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/obj/Debug/net10.0/ref/Explosive-Tape.Api.dll
+/Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/josephbourbeau/Documents/Explosive-Tape-api/Explosive-Tape.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
