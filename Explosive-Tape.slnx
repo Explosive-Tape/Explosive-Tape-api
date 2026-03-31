@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="Explosive-Tape.Api/Explosive-Tape.Api.csproj" />
+  <Project Path="Explosive-Tape.Data/Explosive-Tape.Data.csproj" />
   <Project Path="Explosive-Tape.Domain/Explosive-Tape.Domain.csproj" />
 </Solution>
