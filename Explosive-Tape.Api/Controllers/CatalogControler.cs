@@ -48,11 +48,20 @@ namespace Explosive_Tape.Api.Controllers
         return Ok(item);
     }
     [HttpPut("{id:int}")]
-    public IActionResult Put(int id, Item item)
+    public IActionResult PutItem(int id, [FromBody] Item item)
     {
-        item.Id = id;
+        if (id != item.Id)
+        {
+            return BadRequest();
+        }
+        if (_db.Items.Find(id) == null)
+        {
+            return NotFound();
+        }
 
-        return Ok(item);
+        _db.Entry(item).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+        _db.SaveChanges();
+        return NoContent();
     }
     [HttpDelete("{id:int}")]
     public IActionResult Delete(int id)
