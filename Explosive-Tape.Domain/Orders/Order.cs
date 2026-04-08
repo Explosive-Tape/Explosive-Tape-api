@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using Explosive_Tape.Domain.Catalog;
 
 namespace Explosive_Tape.Domain.Orders
 {
@@ -11,8 +12,6 @@ namespace Explosive_Tape.Domain.Orders
         public decimal TotalPrice => Items.Sum(i => i.Price);
     }
 }
-
-using Jet.Piranha.Domain.Catalog;
 
 namespace Explosive_Tape.Domain.Orders
 {

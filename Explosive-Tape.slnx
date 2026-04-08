@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/tests/">
+    <Project Path="tests/Explosive-Tape.Domain.Tests/Explosive-Tape.Domain.Tests.csproj" />
+  </Folder>
   <Project Path="Explosive-Tape.Api/Explosive-Tape.Api.csproj" />
   <Project Path="Explosive-Tape.Data/Explosive-Tape.Data.csproj" />
   <Project Path="Explosive-Tape.Domain/Explosive-Tape.Domain.csproj" />
