@@ -1,5 +1,6 @@
 ﻿using Explosive_Tape.Domain.Catalog;
 using Microsoft.EntityFrameworkCore;
+using Explosive_Tape.Domain.Orders;
 
 namespace Explosive_Tape.Data
 {
