@@ -1,6 +1,7 @@
 using Explosive_Tape.Data;
 using Microsoft.AspNetCore.Mvc;
 using Explosive_Tape.Domain.Catalog;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Explosive_Tape.Api.Controllers
 {
@@ -64,6 +65,7 @@ namespace Explosive_Tape.Api.Controllers
         return NoContent();
     }
     [HttpDelete("{id:int}")]
+    [Authorize("delete:catalog")]
     public IActionResult DeleteItem(int id)
     {
         var item = _db.Items.Find(id);
