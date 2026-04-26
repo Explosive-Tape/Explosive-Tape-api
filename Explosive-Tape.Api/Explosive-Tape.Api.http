@@ -1,6 +1,25 @@
 @Explosive_Tape.Api_HostAddress = http://localhost:5295
 
-GET {{Explosive_Tape.Api_HostAddress}}/weatherforecast/
+GET http://localhost:5295/catalog/
 Accept: application/json
 
 ###
+
+DELETE http://localhost:5295/catalog/2
+
+### GET token from Auth0
+
+curl --request POST \
+  --url https://dev-3kbxke5macgyuc2g.us.auth0.com/oauth/token \
+  --header 'content-type: application/json' \
+  --data '{
+    "client_id":"GVsOJuu5UYrzZOQKrZtBEzQNsyt7ddR7",
+    "client_secret":"BMkHe9cvs4Gv0HNipI38nphytBgPi6Ft-UrU4NKnZrEnId84YK9TNbf3qc7oaxpu",
+    "audience":"https://explosive-tape",
+    "grant_type":"client_credentials"
+  }'
+
+### DELETE a Item to the Catalog collection
+curl --request DELETE \
+    --url http://localhost:5295/catalog/2 \
+    --header 'authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjI0c0t0QkdmTVh5NkM2NWhYOTUxZiJ9.eyJpc3MiOiJodHRwczovL2Rldi0za2J4a2U1bWFjZ3l1YzJnLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJHVnNPSnV1NVVZcnpaT1FLclp0QkV6UU5zeXQ3ZGRSN0BjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9leHBsb3NpdmUtdGFwZSIsImlhdCI6MTc3NzI0NTUzNywiZXhwIjoxNzc3MzMxOTM3LCJzY29wZSI6ImRlbGV0ZTpjYXRhbG9nIiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIiwiYXpwIjoiR1ZzT0p1dTVVWXJ6Wk9RS3JadEJFelFOc3l0N2RkUjcifQ.LjXgI8DVvOO7WGwbqI7yaiLOUhgjIkCm0thps0s7PPlljmnyfalFl5gZUVxrZ5O3x8xGBEDMolUndpGwHiK8l2gMDh4u3uxJP15Q_K60eCM-asSn046cyTE8tk9XBWiWWFRnFnYhjpqdOjYHFA9o4isYgq0rA73Ai-DSrjfoMtWpULsmZOJmz4pGhc_YCBT8KBlOAKTaLm54DCapka5ttFVttoXFMIa0Ud9kNjCy-uZIgfNlf0l28SfmaLoXOzZGqi9DmekkY4mtEUYCScbQTH1qSzYrIa0mLYw6Db4x1QgBXF2eqxq3FV9kSPLDrJFc2ABgWEn1kNOhyRgoYzWWAg'
